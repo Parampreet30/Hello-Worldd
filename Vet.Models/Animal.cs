@@ -15,4 +15,11 @@ public class Animal
     this.Height = height;
     this.Weight = Weight;
   }
+
+  public virtual string Greet()
+{
+    return $"Hello {this.Name}!";
+}
+
+
 }
